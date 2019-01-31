@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<manifest xmlns="http://www.ibm.com/xmlns/prod/cics/bundle" id="com.ibm.cicsdev.cicsjwt.consumer.bundle" bundleMajorVer="1" bundleMinorVer="0" bundleMicroVer="0" bundleVersion="1" bundleRelease="0" build="IntB-201705232112">
+    <meta_directives>
+        <timestamp>2018-11-21T13:50:26.285+01:00</timestamp>
+    </meta_directives>
+    <define name="com.ibm.cicsdev.cicsjwt.consumer" type="http://www.ibm.com/xmlns/prod/cics/bundle/WARBUNDLE" path="com.ibm.cicsdev.cicsjwt.consumer.warbundle"/>
+</manifest>
