@@ -1,7 +1,7 @@
 cics-java-liberty-link-jwt-sample
 =================================
 
-This repository provides sample materials for the article "[Using the Liberty JWT Feature with CICS](README.md)" that illustrate how CICS and Liberty for z/OS capabilities can be used to handle JSON Web Token (JWT). The article explains the scenario and how to install the sample.
+This repository provides sample materials for the article "[Using the Liberty JWT Feature with CICS](https://developer.ibm.com/cics/2019/02/06/json-web-tokens/)" that illustrate how CICS and Liberty for z/OS capabilities can be used to handle JSON Web Token (JWT). The article explains the scenario and how to install the sample.
 For more information about the different technologies and functions used in this sample, check the Reference section.
 
 Once the CICS resources installed, and the Cobol and Java programs deployed, the way to test the scenario is to start the *QUOT* transaction with the input parameters:
@@ -15,7 +15,7 @@ where:
 
 ## Getting started
 
-A guide to deploying these samples into CICS can be found in the referred blog article "[Using the Liberty JWT Feature with CICS](README.md)".
+A guide to deploying these samples into CICS can be found in the referred blog article "[Using the Liberty JWT Feature with CICS](https://developer.ibm.com/cics/2019/02/06/json-web-tokens/)".
 
 ## Repository contents
 
