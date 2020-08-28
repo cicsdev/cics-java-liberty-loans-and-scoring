@@ -53,10 +53,10 @@ Both `CICSJwtBuilder`and `CICSJwtConsumer` have a method that can be linked from
 
 ## Server.xml snippets
 
-In this sample, two Liberty JVM Servers are used: **JWTB** for the generation of the JWT and **JWTC** for the validation of the JWT.
+In this sample, two Liberty JVM servers are used: **JWTB** for the generation of the JWT and **JWTC** for the validation of the JWT.
 The next two sub-sections contain server.xml snippets showing the required Liberty configuration for the sample. More information can be found in the article.
 
-### JWTB JVM Server
+### JWTB JVM server
 
 * Enable the `cicsts:link-1.0` and `jwt-1.0` features:
 ```xml
@@ -78,7 +78,7 @@ The next two sub-sections contain server.xml snippets showing the required Liber
 <jwtBuilder id="myJWTBuilder" expiry="1h" issuer="CICSMOBT" keyAlias="JWT signer" keyStoreRef="JWTsigner"/>
 ```
 
-### JWTC JVM Server
+### JWTC JVM server
 
 * Enable the `cicsts:link-1.0` and `jwt-1.0` features:
 ```xml
